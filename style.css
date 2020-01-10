@@ -12,20 +12,6 @@ html {
     background-image: url("forest2.jpg");
 }
 
-#contactButton {
-    font-size: 30px;
-    font-weight: bold;
-    border-style: none;
-    background-color: #cccccc;
-    float: right;
-    margin-top: 5px;
-    height: 50px;
-}
-
-#contactButton:hover {
-    background-color: #595959;
-}
-
 #header {
     margin-top: -10px;
     margin-bottom: 20px;
@@ -64,6 +50,20 @@ html {
     text-align: center;
 }
 
+#contactButton {
+    font-size: 30px;
+    font-weight: bold;
+    border-style: none;
+    background-color: #cccccc;
+    float: right;
+    margin-top: 5px;
+    height: 50px;
+}
+
+#contactButton:hover {
+    background-color: #595959;
+}
+
 #contact {
     margin-top: 20px;
     text-decoration: none;
@@ -72,6 +72,7 @@ html {
 
 #contactLink {
     /* text-decoration: none; */
+    padding-top: 5px;
     color: var(--font);
 }
 
