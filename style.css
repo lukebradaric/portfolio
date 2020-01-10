@@ -54,6 +54,9 @@ html {
     background-color: var(--background2);
 }
 
+
+/* ABOUT PAGE SECTION */
+
 #about {
     background-color: var(--background3);
     margin: 20px 250px 0px 250px;
@@ -103,6 +106,9 @@ html {
     height: 15px;
 }
  */
+
+
+/* GAME SHOWCASE SECTION */
 
 .gif {
     margin-left: 20px;
