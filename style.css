@@ -72,7 +72,7 @@ html {
 
 #contactLink {
     /* text-decoration: none; */
-    padding-top: 10px;
+    padding-bottom: 10px;
     color: var(--font);
 }
 
