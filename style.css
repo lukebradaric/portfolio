@@ -12,6 +12,20 @@ html {
     background-image: url("forest2.jpg");
 }
 
+#contactButton {
+    font-size: 30px;
+    font-weight: bold;
+    border-style: none;
+    background-color: #cccccc;
+    float: right;
+    margin-top: 5px;
+    height: 50px;
+}
+
+#contactButton:hover {
+    background-color: #595959;
+}
+
 #header {
     margin-top: -10px;
     margin-bottom: 20px;
@@ -29,6 +43,7 @@ html {
     width: 1200px;
     padding: 5px 0px;
     background-color: var(--background3);
+    bottom: -20px;
 }
 
 #body {
@@ -37,6 +52,46 @@ html {
     width: 1200px;
     color: var(--font);
     background-color: var(--background2);
+}
+
+#about {
+    background-color: var(--background3);
+    margin: 20px 250px 0px 250px;
+    padding: 25px 40px 8px 40px;
+    text-align: center;
+}
+
+#contact {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20;
+}
+
+#contactLink {
+    /* text-decoration: none; */
+    color: var(--font);
+    padding-bottom: 5px;
+}
+
+#list {
+    font-size: 20;
+    padding: 0px;
+    list-style: none;
+    list-style: circle;
+}
+
+#aboutTitle {
+    text-decoration: underline;
+    font-size: 35;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#aboutSubTitle {
+    font-size: 25;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 
