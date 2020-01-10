@@ -73,12 +73,11 @@ html {
 #contactLink {
     /* text-decoration: none; */
     color: var(--font);
-    padding-bottom: 5px;
 }
 
 #list {
-    font-size: 20;
     padding: 0px;
+    font-size: 20;
     list-style: none;
     list-style: circle;
 }
