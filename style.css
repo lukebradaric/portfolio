@@ -46,7 +46,7 @@ html {
 #about {
     background-color: var(--background3);
     margin: 20px 250px 0px 250px;
-    padding: 25px 40px 8px 40px;
+    padding: 10px 40px 2px 40px;
     text-align: center;
 }
 
@@ -114,6 +114,12 @@ html {
     margin-left: 20px;
     height: 200px;
     width: 400px;
+}
+
+.gif-vert {
+    margin-left: 140px;
+    height: 200px;
+    width: 150px;
 }
 
 #gameContainer {
