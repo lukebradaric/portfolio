@@ -1,0 +1,35 @@
+section,key,title,description,icon_or_image,tags,link,order,visible
+guide,,,"HOW TO EDIT: every row below is one piece of the website. Edit cells and the site updates on its next load. Don't change the header row above, the 'section' values, or the 'key' values.",,,,,
+guide,,,"ICONS (icon_or_image column): use any slug from https://simpleicons.org (github, unity, godotengine, blender...). Special values: 'linkedin' and 'email' are built into the site. 'txt:C#' shows the text C# instead of an icon.",,,,,
+guide,,,"IMAGES (icon_or_image column on project/jam rows): media/filename.png for files in the site's media folder, or paste any direct image/GIF url from the web.",,,,,
+guide,,,"TAGS: comma separated. Plain words become green [tool] tags. Words starting with @ become grey company tags. Example: 'c#, c++, @blizzard'.",,,,,
+guide,,,"ORDER sorts rows within their section (1 = first). VISIBLE: set to FALSE to hide a row without deleting it.",,,,,
+config,hero_label,,game & software developer,,,,,TRUE
+config,hero_title,,Luke Bradaric,,,,,TRUE
+config,hero_description,,"I build games, tools, and the things in between. Previously on the World of Warcraft team at Blizzard — always shipping something small on the side.",,,,,TRUE
+config,hero_button,,about me ↓,,,#about,,TRUE
+config,about_1,,"I'm Luke, a game and software developer. My love for game development started with a class I took in high school — years later, it's still my best-loved passion.",,,,,TRUE
+config,about_2,,"I've worked on the World of Warcraft team at Blizzard building developer tooling, and I ship small games with friends through game jams like Ludum Dare and GMTK.",,,,,TRUE
+config,footer_text,,© 2026 Luke Bradaric,,,,,TRUE
+social,,github,,github,,https://github.com/lukebradaric,1,TRUE
+social,,linkedin,,linkedin,,https://www.linkedin.com/in/lukebradaric/,2,TRUE
+social,,itch.io,,itchdotio,,https://teamjolu.itch.io/,3,TRUE
+social,,email,,email,,mailto:lukebradaric@gmail.com,4,TRUE
+project,,World of Warcraft,"Worked on the World of Warcraft team for two consecutive summers and built tools to improve developer workflow.",media/dragonflight-warwithin.png,"c#, c++, @blizzard",https://dragonflight.blizzard.com/en-us/,1,TRUE
+project,,TinyTools,"Collection of lightweight Unity tools used to streamline game development processes.",media/tinytools.png,"unity, c#",https://github.com/lukebradaric/TinyTools,2,TRUE
+project,,Adventure Assembly,"Action roguelike with a snake-like twist on player movement. Collect heroes and fight off waves of enemies!",media/adventureassembly.gif,"unity, c#",https://teamjolu.itch.io/adventurer-assembly,3,TRUE
+project,,FujiCraft,"Custom built Minecraft server providing an MMO-like experience to an active community of 100+ players.",media/fujicraft.png,java,https://store.fujicraft.net/,4,TRUE
+project,,Killchain,"First person movement shooter based around chains, momentum, and fast paced action.",media/killchain.gif,"unity, c#",https://github.com/lukebradaric/killchain,5,TRUE
+project,,Puffer Bot,"Automated Twitch clip compiler. Running on YouTube channels for games such as League of Legends, Valorant and more.",media/puffer.png,"js, node",https://github.com/lukebradaric/puffer-twitch,6,TRUE
+jam,,Tink,"Rogue-like where player behaviour influences the way levels generate.",media/tink.gif,"unity, c#",https://twitter.com/luke_bradaric,1,TRUE
+jam,,The Later Lab,"Travel between timelines and transport objects back and forth to solve puzzles.",media/thelaterlab.gif,"unity, c#",https://teamjolu.itch.io/the-later-lab,2,TRUE
+jam,,Nuclear Labs,"Freeze waves of enemies and kick them into the surrounding water to cool off your nuclear reactor.",media/nuclearlabs.gif,"unity, c#",https://teamjolu.itch.io/nuclear-labs,3,TRUE
+jam,,Torch Fella,"Control a series of blobs to transport a lit torch across a level in order to light the bonfire.",media/torchfella.gif,"unity, c#",https://flowluke.itch.io/torch-fella,4,TRUE
+tech,,Unity,,unity,,,1,TRUE
+tech,,C-Sharp,,txt:C#,,,2,TRUE
+tech,,C++,,cplusplus,,,3,TRUE
+tech,,Unreal Engine,,unrealengine,,,4,TRUE
+tech,,Git,,git,,,5,TRUE
+tech,,JavaScript,,javascript,,,6,TRUE
+tech,,Node.js,,nodedotjs,,,7,TRUE
+tech,,Java,,openjdk,,,8,TRUE
